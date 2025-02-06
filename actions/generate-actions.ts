@@ -29,7 +29,7 @@ export async function generateDataAction(
     // Use generateObject to generate structured data using the provided prompt and schema.
     // The output option "array" forces the result to be an array of objects.
     const { object: generatedData } = await generateObject({
-      model: openai("gpt-4-turbo"),
+      model: openai("o3-mini"),
       output: "array",
       schema,
       prompt: request.prompt,

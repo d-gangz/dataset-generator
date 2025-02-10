@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-8 space-y-6 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold">LLM JSON-to-CSV Generator</h1>
+      <h1 className="text-3xl font-bold">LLM Dataset Generator</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-2">
